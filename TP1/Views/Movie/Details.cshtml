@@ -1,0 +1,9 @@
+﻿@model TP1.Models.MovieCustomerViewModel
+<h2> Model.Movie.Name</h2>
+<h2>list of customers</h2>
+<ul>
+	@foreach (var customer in Model.customers)
+	{
+	   <li>@customer.Name</li>
+	}
+</ul>
